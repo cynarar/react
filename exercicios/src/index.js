@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import Familia from './componentes/Familia';
-import Membro from './componentes/Membro';
+import Pai from './componentes/Pai';
 
 const elemento = document.getElementById('root')
 
@@ -13,9 +12,11 @@ ReactDom.render(
     <CompB valor="TesteB"></CompB>*/}
     {/*<MultiElementos />*/}
     {/*<FamiliaSilva></FamiliaSilva>*/}
-    <Familia sobrenome="Pereira">
+    {/*<Familia sobrenome="Pereira">
       <Membro nome="André" />
       <Membro nome="Maria" />
-    </Familia>
+  </Familia>*/}
+    {/*<ComponenteComFuncao />*/}
+    <Pai></Pai>
   </div>
   , elemento)
